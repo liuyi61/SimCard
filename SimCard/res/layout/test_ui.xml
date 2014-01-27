@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="&lt;-----TelephonyManager----->" />
+
+        <Button
+            android:id="@+id/getAllCellInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getAllCellInfo" />
+
+        <Button
+            android:id="@+id/getCallState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getCallState" />
+
+        <Button
+            android:id="@+id/getCellLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getCellLocation" />
+
+        <Button
+            android:id="@+id/getDataActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getDataActivity" />
+
+        <Button
+            android:id="@+id/getDataState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getDataState" />
+
+        <Button
+            android:id="@+id/getDeviceId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getDeviceId" />
+
+        <Button
+            android:id="@+id/getDeviceSoftwareVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getDeviceSoftwareVersion" />
+
+        <Button
+            android:id="@+id/getGroupIdLevel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getGroupIdLevel1" />
+
+        <Button
+            android:id="@+id/getLine1Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getLine1Number" />
+
+        <Button
+            android:id="@+id/getMmsUAProfUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getMmsUAProfUrl" />
+
+        <Button
+            android:id="@+id/getMmsUserAgent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getMmsUserAgent" />
+
+        <Button
+            android:id="@+id/getNeighboringCellInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getNeighboringCellInfo" />
+
+        <Button
+            android:id="@+id/getNetworkCountryIso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getNetworkCountryIso" />
+
+        <Button
+            android:id="@+id/getNetworkOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getNetworkOperator" />
+
+        <Button
+            android:id="@+id/getNetworkOperatorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getNetworkOperatorName" />
+
+        <Button
+            android:id="@+id/getNetworkType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getNetworkType" />
+
+        <Button
+            android:id="@+id/getPhoneType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getPhoneType" />
+
+        <Button
+            android:id="@+id/getSimCountryIso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getSimCountryIso" />
+
+        <Button
+            android:id="@+id/getSimOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getSimOperator" />
+
+        <Button
+            android:id="@+id/getSimOperatorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getSimOperatorName" />
+
+        <Button
+            android:id="@+id/getSimSerialNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getSimSerialNumber" />
+
+        <Button
+            android:id="@+id/getSimState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getSimState" />
+
+        <Button
+            android:id="@+id/getSubscriberId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getSubscriberId" />
+
+        <Button
+            android:id="@+id/getVoiceMailAlphaTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getVoiceMailAlphaTag" />
+
+        <Button
+            android:id="@+id/getVoiceMailNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getVoiceMailNumber" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="&lt;-----Preference----->" />
+
+        <Button
+            android:id="@+id/getPreferenceFirstRunning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getPreferenceFirstRunning" />
+
+        <Button
+            android:id="@+id/getPreferenceIMSI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getPreferenceIMSI" />
+    </LinearLayout>
+
+</ScrollView>
